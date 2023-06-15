@@ -1,4 +1,5 @@
 # Bangkit Team C22-PS164, Anabul
+![Anabul Logo Transparent](https://github-production-user-asset-6210df.s3.amazonaws.com/18515456/246032566-fb77a4be-f00a-4d3d-b841-d067a4aa1d60.png)
 # Product-based Capstone Bangkit Academy 2022
 # Member:
 1. Machine Learning:
@@ -13,7 +14,7 @@
 # Final Selected Themes:
 Human Healthcare and Living Wellbeings
 # Title of The Project:
-Anabul
+Anabul - Your Guide to Happy and Healthy Pets!
 # Summary of Project:
 The pet economy industry in Indonesia experienced growth during the Covid-19 pandemic, causing the habit of adopting animals to increase. Data from LandX in 2021 shows that 47% of respondents keep cats, and 10% of respondents keep dogs at home. The problem statement of this project is that many people have difficulty finding knowledge such as cat/dog classifications, breeds, food types, and diseases. In addition, the number of abandoned animals causes the need for an application with social features such as adoption, donation, and consultation. Research questions are how do cat/dog lovers find knowledge related to the classification of cats and dogs along with their breeds to food type information? How do we integrate the application's social features, such as adoption, donation, and consultation? What is the impact of this application on the community of cat and dog lovers in Indonesia? Background 
 information is that there are many characteristics, uniqueness, and types of cats and dogs that are complicated and time-consuming to learn. This project should be completed to make it easier for cat and dog lovers to find knowledge about cats and dogs integrated with social features such as adoption, donation, and consultation. This project should be completed to make it easier for cat and dog lovers to find knowledge about cats and dogs integrated with social features such as adoption, donation, and consultation.
@@ -33,7 +34,7 @@ information is that there are many characteristics, uniqueness, and types of cat
   - .dockerignore
   - Dockerfile
   - requirements.txt
--  Create a project on Firebase
+-  Create a project on Firebase and activate authentication with Google.
 -  Cloud Storage Browser page
    - Create bucket
    - Name your bucket : "-----"
@@ -46,8 +47,8 @@ information is that there are many characteristics, uniqueness, and types of cat
     -  On VSCode Terminal run: ``gcloud init``
     -  Select your account and configure your project (follow the instructions)
     -  Deploy to Cloud Run:
-        - ``gcloud builds submit --tag gcr.io/<project_id>/get_prediction``
-        - ``gcloud run deploy --image gcr.io/<project_id>/get_prediction --platform managed``
+        - ``gcloud builds submit --tag gcr.io/<project_id>/predict_dog_disease``
+        - ``gcloud run deploy --image gcr.io/<project_id>/predict_dog_disease --platform managed``
 4. Mobile Development:
 - 
 # Technology Used:
@@ -59,7 +60,7 @@ information is that there are many characteristics, uniqueness, and types of cat
 - Cloud Storage
 - Firebase for Authentication
 - Postman
-# Bugdet:
+# Budget:
 Google Cloud Subscription $300
 # Dataset
 - Dog photo
