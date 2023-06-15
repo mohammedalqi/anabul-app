@@ -20,7 +20,7 @@ The pet economy industry in Indonesia experienced growth during the Covid-19 pan
 information is that there are many characteristics, uniqueness, and types of cats and dogs that are complicated and time-consuming to learn. This project should be completed to make it easier for cat and dog lovers to find knowledge about cats and dogs integrated with social features such as adoption, donation, and consultation. This project should be completed to make it easier for cat and dog lovers to find knowledge about cats and dogs integrated with social features such as adoption, donation, and consultation.
 # Step to Replicate:
 1. Machine Learning:
-- Dataset ingestion (from Kaggle)
+- Dataset ingestion (from Kaggle and Roboflow, link download available at the end of this page)
 - Preprocessing (binary encoding, dividing data, check numbers of data, and scaling the data to prepare for the ML training)
 - Define deep learning model using TensorFlow
 - Save and load model to evaluate model performance
@@ -63,4 +63,5 @@ information is that there are many characteristics, uniqueness, and types of cat
 # Budget:
 Google Cloud Subscription $300
 # Dataset
-- Dog photo
+- Dogs dataset
+- [Dogs skin disease dataset](https://universe.roboflow.com/captain-blank-bodop/sample-k1xk8)
