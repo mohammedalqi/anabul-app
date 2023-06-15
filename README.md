@@ -24,14 +24,42 @@ information is that there are many characteristics, uniqueness, and types of cat
 - Define deep learning model using TensorFlow
 - Save and load model to evaluate model performance
 2. Cloud Computing:
-- 
+- Create a project on Google Cloud Platform
+- Set default region as asia-southeast2 (Jakarta)
+``$gcloud config set compute/region asia-southeast2`` 
+- Project Structure for Deployment
+  - main.py
+  - skin_disease_dogs.h5 (ML model)
+  - .dockerignore
+  - Dockerfile
+  - requirements.txt
+-  Create a project on Firebase
+-  Cloud Storage Browser page
+   - Create bucket
+   - Name your bucket : "-----"
+   - Location type : region
+   - Choose where to store your data = asia-southeast2
+   - Leave the default setting
+   - Create bucket
+-  Model Deployment
+    -  [Install GCloud SDK](https://cloud.google.com/sdk/docs/install)
+    -  On VSCode Terminal run: ``gcloud init``
+    -  Select your account and configure your project (follow the instructions)
+    -  Deploy to Cloud Run:
+        - ``gcloud builds submit --tag gcr.io/<project_id>/get_prediction``
+        - ``gcloud run deploy --image gcr.io/<project_id>/get_prediction --platform managed``
 4. Mobile Development:
--
+- 
 # Technology Used:
 - Tensorflow
 - Google Drive
 - Google Colab
+- VSCode
+- Cloud Run
+- Cloud Storage
+- Firebase for Authentication
+- Postman
 # Bugdet:
-
+Google Cloud Subscription $300
 # Dataset
 - Dog photo
