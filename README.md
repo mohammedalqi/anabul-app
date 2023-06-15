@@ -28,7 +28,7 @@ information is that there are many characteristics, uniqueness, and types of cat
 - Create a project on Google Cloud Platform
 - Set default region as asia-southeast2 (Jakarta)
 ``$gcloud config set compute/region asia-southeast2`` 
-- Project Structure for Deployment
+- Project Structure Example for Deployment
   - main.py
   - skin_disease_dogs.h5 (ML model)
   - .dockerignore
