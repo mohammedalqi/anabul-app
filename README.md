@@ -50,7 +50,10 @@ information is that there are many characteristics, uniqueness, and types of cat
         - ``gcloud builds submit --tag gcr.io/<project_id>/predict_dog_disease``
         - ``gcloud run deploy --image gcr.io/<project_id>/predict_dog_disease --platform managed``
 4. Mobile Development:
-- 
+- user analysis for accessibility
+- rendering process in development
+- graphic design using figma and canva
+- dependencies information from tensorflow
 # Technology Used:
 - Tensorflow
 - Google Drive
