@@ -54,6 +54,7 @@ information is that there are many characteristics, uniqueness, and types of cat
 - rendering process in development
 - graphic design using figma and canva
 - dependencies information from tensorflow
+- Layouting UI
 # Technology Used:
 - Tensorflow
 - Google Drive
