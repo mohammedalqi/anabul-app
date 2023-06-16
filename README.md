@@ -67,5 +67,5 @@ information is that there are many characteristics, uniqueness, and types of cat
 # Budget:
 Google Cloud Subscription $300
 # Dataset
-- Dogs dataset | [.H5 File](https://storage.googleapis.com/anabul_app/Klasifikasi%205%20Ras%20Anjing.h5)
-- [Dogs skin disease dataset](https://universe.roboflow.com/captain-blank-bodop/sample-k1xk8) | [.H5 File](https://storage.googleapis.com/anabul_app/skin_disease_dogs.h5)
+- [Kaggle Dogs Breeds Dataset](https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset) | [Dog Breeds Trained Dataset](https://drive.google.com/drive/folders/131_F6uyw94XFelHg7Sw6XdPI7F2Ho17C?usp=sharing)
+- [Roboflow Dogs Skin Disease Dataset](https://universe.roboflow.com/captain-blank-bodop/sample-k1xk8) | [Dog Skin Disease Trained Dataset](https://drive.google.com/drive/folders/1G9hE2pvBYAfl889y_HS7SMxuGOCesj5p?usp=sharing)
